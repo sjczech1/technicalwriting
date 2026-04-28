@@ -6,16 +6,18 @@ This document introduces a simple workflow using Git to track changes in a proje
 
 **Prerequisites**
 
-- Git installed on your system
-- A computer running Windows 11 (or Windows 10/macOS)
-- Basic familiarity with files and folders
-- Access to Windows Terminal or another command-line interface
+1. Git installed on your system
+2. A computer running Windows 11 (or Windows 10/macOS)
+3. Basic familiarity with files and folders
+4. Access to Windows Terminal or another command-line interface
 
 **Key Concepts**
 
-- **Repository (repo):** A folder tracked by Git
-- **Staging area:** Where changes are prepared before committing
-- **Commit:** A snapshot of changes
+1. **Repository (repo):** A folder tracked by Git
+2. **Staging area:** Where changes are prepared before committing
+3. **Commit:** A snapshot of changes
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Step 1: Initialize a Repository**
 
@@ -35,62 +37,57 @@ This document introduces a simple workflow using Git to track changes in a proje
 </p>
 
 
-**Step 2: Create a File**
+**Step 2: Create a File:**
 
 1.  Create a new text file using a code editor like Visual Studio Code
 2.  Add some content, for example: Hello Git!
 3.  Save the file as hello.txt
 
-** Expected Output **
+**Expected Output:**
 
 <p align = "left">
-<img src = assets/GitStep2Output.png alt="Step 1")>
+<img src = assets/GitStep2Output.png alt="Step 2")>
 </p>
 
 
 **Step 3: Check Repository Status**
 
-1.  git status
-
 **Description:**  
 Shows the current state of your repository.
 
+1.  git status
+   
 **Expected Output:**
 
 <p align = "left">
-<img src = assets/GitStep3Output.png alt="Step 3")>
+<img src = assets/GitOutputStep3.png alt="Step 3")>
 </p>
 
-1.  File listed as **untracked** 
+File listed as **untracked** 
 
 
 **Step 4: Stage Changes**
 
-Add the file to the staging area:
+**Description:**  
+Adding the file to the staging area:
 
 1.  git add hello.txt
 2.  Run status again: git status
 
-**Expected Result:**
+**Expected Output:**
 
 <p align = "left">
 <img src = assets/GitStep4Output.png alt="Step 4")>
 </p>
-
-
 File now listed under “Changes to be committed”
 
-**Step 5: Commit Changes**
 
-Create a commit:
+**Description:**  
+Creates a commit and saves a snapshot of your changes.
 
 1.  git commit -m "Initial commit"
 
-**Description:**  
-
-Saves a snapshot of your changes.
-
-**Expected Result:**
+**Expected Output:**
 
 <p align = "left">
 <img src = assets/GitOutputStep5.png alt="Step 5")>
@@ -98,19 +95,18 @@ Saves a snapshot of your changes.
 
 
 
-**Step 6: View Commit History**
-
-1.  git log
-
+**Step 5: View Commit History**
 **Description:**  
 Displays a list of commits.
 
-**Expected Result:**
+1.  git log
+
+**Expected Output:**
 <p align = "left">
 <img src = assets/GitOutputStep5.png alt="Step 5")>
 </p>
 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------
 **Common Errors and Solutions**
 
 **Error: “git is not recognized”**
@@ -137,6 +133,8 @@ Displays a list of commits.
 **Solution:**
 
 1.  git commit -m "Your message"
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Tips**
 
