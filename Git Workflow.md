@@ -29,12 +29,18 @@ This document introduces a simple workflow using Git to track changes in a proje
     1.  git init
 
 **Expected Output:** Initialized empty Git repository
+![Step 1](assets/GitStep1Output.png)
+
 
 **Step 2: Create a File**
 
 1.  Create a new text file using a code editor like Visual Studio Code
 2.  Add some content, for example: Hello Git!
 3.  Save the file as hello.txt
+
+** Expected Output **
+![Step2](assets/GitStep2Output.png)
+
 
 **Step 3: Check Repository Status**
 
@@ -44,8 +50,10 @@ This document introduces a simple workflow using Git to track changes in a proje
 Shows the current state of your repository.
 
 **Expected Output:**
+![Step3](assets/GitStep3Output.png)
 
 1.  File listed as **untracked** 
+
 
 **Step 4: Stage Changes**
 
@@ -55,6 +63,8 @@ Add the file to the staging area:
 2.  Run status again: git status
 
 **Expected Result:**
+![Step4](assets/GitStep4Output.png)
+
 
 File now listed under “Changes to be committed”
 
