@@ -29,7 +29,10 @@ This document introduces a simple workflow using Git to track changes in a proje
     1.  git init
 
 **Expected Output:** Initialized empty Git repository
-![Step 1](assets/GitStep1Output.png)
+
+<p align = "left">
+<img src = assets/GitStep1Output.png alt="Step 1")>
+</p>
 
 
 **Step 2: Create a File**
@@ -39,7 +42,10 @@ This document introduces a simple workflow using Git to track changes in a proje
 3.  Save the file as hello.txt
 
 ** Expected Output **
-![Step2](assets/GitStep2Output.png)
+
+<p align = "left">
+<img src = assets/GitStep2Output.png alt="Step 1")>
+</p>
 
 
 **Step 3: Check Repository Status**
@@ -50,7 +56,10 @@ This document introduces a simple workflow using Git to track changes in a proje
 Shows the current state of your repository.
 
 **Expected Output:**
-![Step3](assets/GitStep3Output.png)
+
+<p align = "left">
+<img src = assets/GitStep3Output.png alt="Step 3")>
+</p>
 
 1.  File listed as **untracked** 
 
@@ -63,7 +72,10 @@ Add the file to the staging area:
 2.  Run status again: git status
 
 **Expected Result:**
-![Step4](assets/GitStep4Output.png)
+
+<p align = "left">
+<img src = assets/GitStep4Output.png alt="Step 4")>
+</p>
 
 
 File now listed under “Changes to be committed”
@@ -75,7 +87,16 @@ Create a commit:
 1.  git commit -m "Initial commit"
 
 **Description:**  
+
 Saves a snapshot of your changes.
+
+**Expected Result:**
+
+<p align = "left">
+<img src = assets/GitOutputStep5.png alt="Step 5")>
+</p>
+
+
 
 **Step 6: View Commit History**
 
@@ -83,6 +104,12 @@ Saves a snapshot of your changes.
 
 **Description:**  
 Displays a list of commits.
+
+**Expected Result:**
+<p align = "left">
+<img src = assets/GitOutputStep5.png alt="Step 5")>
+</p>
+
 
 **Common Errors and Solutions**
 
